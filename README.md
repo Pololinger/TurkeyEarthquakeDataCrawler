@@ -1,4 +1,4 @@
-Takes data published by BDTIM Bogazici University about Earthquakes in Turkey and creates a .csv file Link: http://www.koeri.boun.edu.tr/scripts/lst7.asp
+Takes data published by BDTIM Bogazici University about Earthquakes in Turkey and creates a .csv file: http://www.koeri.boun.edu.tr/scripts/lst7.asp
 
 Includes: 
 Date / Time / Lat. / Long. / Depth(km) / Magnitude / Region  - The site publishes the 500 latest Earthquakes.
