@@ -49,7 +49,7 @@ def clean_quakes_csv(quakes_raw_csv):
 
 	df['Magnitude']= df['Magnitude'].str.replace(r'\-.-', '')
 
-	df.to_csv('quakes_cleaned' + datetime.today().strftime('%y%m%d-%H%M%S') + '.csv')
+	df.to_csv('quakes_cleaned_' + datetime.now().strftime('%y%m%d-%H%M') + '.csv')
 
 clean_quakes_csv('quakes_raw.csv')
 
