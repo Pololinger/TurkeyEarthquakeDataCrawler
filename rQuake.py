@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
 from datetime import datetime 
+
 url = 'http://www.koeri.boun.edu.tr/scripts/lasteq.asp'
 
 r = requests.get(url)
@@ -17,9 +18,9 @@ with open('quakes.txt', 'w', encoding='utf-8') as f_out:
 
 file = open('quakes.txt', 'r')
 table = file.readlines()
+del table[0:10]
 file.close()
 
-del table[0:10]
 
 # write txt file 
 
